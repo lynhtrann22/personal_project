@@ -1,7 +1,16 @@
-## I. Introduction
+## Introduction
 This project estimates the GARCH(1,1) model using Markov Chain Monte Carlo or Gaussian Variational Bayes (GVB) to analyze the volatility in the stock market. In this project, we work with the dataset of the daily return values of the Australia All Ordinaries Index (AORD) from 03-Jan-2012 to 28-June-2022. 
 
-I was mainly responsible for estimating the model by implementing Gaussian Variational Bayes and generating the forecast of the AORD volatility for 29-June-2022 with the estimated model. 
+GARCH model is used to analyse the volatility of financial time series data. The model takes in values of the past squared observations and volatility to model the variance at time 𝑡. The GARCH (1,1) model is favoured for its relatively simple implementation which forecasts volatility by fitting one autoregressive lag or ARCH term and one moving average lag (GARCH term).
 
-## II. Methodology 
-**1. Markov Chain Monte Carlo algorithm** 
+$$
+\hat y
+= 
+\begin{cases}
+0 \text{ if } \hat p < 0.5\\
+1 \text{ if } \hat p \geqslant 0.5
+\end{cases}
+$$
+
+I was mainly responsible for estimating the GARCH model by implementing Gaussian Variational Bayes and generating the forecast of the AORD volatility for 29-June-2022 with the estimated model. 
+
