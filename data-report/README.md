@@ -10,3 +10,4 @@ Low monthly interactions and low reach rate of Facebook posts are major concerns
 2. Research the behaviours of target audiences (habits, interests, trends).
 3. Recommendations and strategies based on research conducted, together with internal problems and limits.
 
+In this project, I was a leader and responsible for managing the team and overseeing data collection, management and analysis. 
